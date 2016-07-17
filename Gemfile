@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'paperclip', github: 'thoughtbot/paperclip'
+
 gem 'devise', '~> 3.5', '>= 3.5.2'
 
 gem "twitter-bootstrap-rails"
