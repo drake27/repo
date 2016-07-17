@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'devise', '~> 3.5', '>= 3.5.2'
 
-
+gem "twitter-bootstrap-rails"
 
 gem 'rails_admin'
 
