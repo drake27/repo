@@ -9,6 +9,9 @@ after_validation(on: :create) do
 self.active = false
 end
 
+scope :active, ->{where active: true}
+scope :inactive, ->{where active: false}
+
 validates_attachment :image,
 :content_type => { :content_type => ["image/jpg","image/jpeg", "image/gif", "image/png"] }
 end
