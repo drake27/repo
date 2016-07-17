@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+gem 'devise', '~> 3.5', '>= 3.5.2'
+
+
+
 gem 'rails_admin'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
